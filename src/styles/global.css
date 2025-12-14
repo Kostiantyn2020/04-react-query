@@ -1,0 +1,8 @@
+@import "modern-normalize/modern-normalize.css";
+
+body {
+    font-family: sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
