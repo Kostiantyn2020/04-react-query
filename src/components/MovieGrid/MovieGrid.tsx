@@ -6,7 +6,7 @@ interface MovieGridProps {
   onSelect: (movie: Movie) => void;
 }
 
-export default function MovieGrid({ movies, onSelect }: MovieGridProps) {
+function MovieGrid({ movies, onSelect }: MovieGridProps) {
   if (!movies.length) return null;
 
   return (
@@ -31,3 +31,4 @@ export default function MovieGrid({ movies, onSelect }: MovieGridProps) {
     </ul>
   );
 }
+export default MovieGrid;
