@@ -11,8 +11,6 @@ export interface MoviesResponse {
   total_pages: number;
 }
 
-console.log("TOKEN:", import.meta.env.VITE_TMDB_ACCESS_TOKEN);
-
 export async function fetchMovies(
   query: string,
   page: number
